@@ -8,7 +8,7 @@ class Window {
     private boolean isOpen;
 
     public Window() {
-        this.isOpen = true; // Изначально окно открыто
+        this.isOpen = true; 
     }
 
     public void close() {
@@ -26,7 +26,7 @@ class Door {
     private boolean isLocked;
 
     public Door() {
-        this.isLocked = false; // Изначально дверь не закрыта на ключ
+        this.isLocked = false; 
     }
 
     public void lock() {
@@ -69,11 +69,11 @@ class House {
     }
 }
 
-// Пример использования классов
+
 public class Main {
     public static void main(String[] args) {
-        House house = new House(5, 3); // Дом с 5 окнами и 3 дверями
-        house.lockDoors(); // Закрываем все двери на ключ
-        house.countWindowsAndDoors(); // Выводим количество окон и дверей
+        House house = new House(5, 3); 
+        house.lockDoors(); 
+        house.countWindowsAndDoors(); 
     }
 }

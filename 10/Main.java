@@ -1,3 +1,5 @@
+3. В каждой строке найти слова, начинающиеся с гласной буквы.
+*/
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

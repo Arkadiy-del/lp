@@ -1,3 +1,7 @@
+/* Автобусные остановки. На маршруте несколько остановок. На одной
+остановке может останавливаться несколько автобусов одновременно, но
+не более заданного числа*/
+
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.ExecutorService;
